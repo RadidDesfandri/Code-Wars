@@ -11,7 +11,8 @@ function reverseWords(str) {
 
 console.log(reverseWords("This is an example!"));
 
-function reverseWords2(str) {
-  return str.split("").reverse().join("").split(" ").reverse().join(" ");
+function reverseWords2(str){
+    return str.split("").reverse().join('').split(" ").reverse().join(" ")
+
 }
 console.log(reverseWords2("This is an example!"));
